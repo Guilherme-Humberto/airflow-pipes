@@ -1,0 +1,25 @@
+# Arquivos gerados pelo Airflow
+core/*.pyc
+core/*.egg-info
+core/*.egg
+
+# Arquivos gerados pelo ambiente virtual do Python
+venv/
+env/
+ENV/
+
+# Arquivos gerados pelo sistema operacional
+core/.DS_Store
+core/Thumbs.db
+
+# Logs e arquivos de saída do Airflow
+core/logs/
+core/*.log
+core/*.out
+core/*.pid
+core/*.err
+
+# Arquivos de cache e banco de dados do Airflow
+core/*.db
+core/*.sqlite
+core/*.sql
